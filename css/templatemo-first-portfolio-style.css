@@ -315,11 +315,12 @@ strong {
 }
 
 .custom-link {
-	background-color: var(--primary-color);
+	background-color:#727aab;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .custom-link:hover {
-	background-color: #727aab;
+	background-color: #515b9e;
 }
 
 
@@ -526,7 +527,7 @@ strong {
   color: white;
   border-radius: var(--border-radius-large);
   display: inline-block;
-  padding: 8px 24px;
+  
 }
 
 .hero-title {
