@@ -60,7 +60,7 @@ h6 {
 
 h1 {
   font-size: var(--h1-font-size);
-  letter-spacing: -3px;
+  letter-spacing: -1px;
 }
 
 h2 {
@@ -315,12 +315,12 @@ strong {
 }
 
 .custom-link {
-	background-color:#727aab;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color:#0179ff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .custom-link:hover {
-	background-color: #515b9e;
+	background-color: #26369c;
 }
 
 
@@ -415,12 +415,12 @@ strong {
 
 .navbar-nav .nav-link.active::after, 
 .navbar-nav .nav-link:hover::after {
-  background: #449ad5;
+  background: #131313;
 }
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color:#449ad5;
+  color:#131313;
 }
 
 .navbar-toggler {
@@ -494,7 +494,7 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero {
-  background: linear-gradient(-45deg, #1d2751, #449ad5, #3360aa, #1d2751);
+  background: linear-gradient(-45deg, #161514, #313030,#0f0f0f);
   background-size: 400% 400%;
   animation: gradient-e60a44dc 10s ease-in-out infinite;
   position: relative;
@@ -531,7 +531,7 @@ strong {
 }
 
 .hero-title {
-	font-size: 44px;
+	font-size: 30px;
 }
 
 .hero h2 {
@@ -559,6 +559,7 @@ strong {
 }
 
 .hero-image {
+  margin-top: -50px;
   position: absolute;
   z-index: 22;
   top: 0;
@@ -1038,10 +1039,7 @@ strong {
     min-width: 650px;
   }
   
-  .hero-title,
-	.hero h2 {
-	  font-size: var(--h2-font-size);
-	}
+ 
 }
 
 @media screen and (max-width: 991px) {
